@@ -17,7 +17,7 @@ variables:
   vmImageName: 'ubuntu-latest'
 
   # Working Directory
-  workingDirectory: '$(System.DefaultWorkingDirectory)/node/plain/functionApp/Application'
+  workingDirectory: '$(System.DefaultWorkingDirectory)/python/simple/functionApp/Application'
 
 stages:
 - stage: Build
